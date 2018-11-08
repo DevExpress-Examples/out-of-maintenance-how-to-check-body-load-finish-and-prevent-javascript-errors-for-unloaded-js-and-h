@@ -1,10 +1,10 @@
 <%-- BeginRegion Page setup --%>
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="ASPxperience_DataView_ItemCommand" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.1" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
     TagPrefix="dxe" %>
 
-<%@ Register Assembly="DevExpress.Web.v8.1" Namespace="DevExpress.Web.ASPxCallback"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxCallback"
     TagPrefix="dxcb" %>
 
 
