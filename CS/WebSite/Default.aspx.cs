@@ -5,9 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.ComponentModel;
-using DevExpress.Web.ASPxDataView;
+using DevExpress.Web;
 using System.Text;
-using DevExpress.Web.ASPxCallback;
 using System.Xml;
 
 
@@ -22,7 +21,7 @@ public partial class ASPxperience_DataView_ItemCommand : System.Web.UI.Page {
             Response.End();
         }
     }
-    protected void ASPxCallback1_Callback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e) {
+    protected void ASPxCallback1_Callback(object source, DevExpress.Web.CallbackEventArgs e) {
         e.Result = "Done!";
     }
 }
